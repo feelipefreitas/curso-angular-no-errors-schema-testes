@@ -1,0 +1,8 @@
+<div *ngIf="user.name">
+    <div>Nome: {{ user.name }}</div>
+    <div>Status: {{ user.status }}</div>
+    <div>Idade: {{ user.age }}</div>
+    <div>
+        <button (click)="incrementAge()">Incrementar Idade</button>
+    </div>
+</div>
